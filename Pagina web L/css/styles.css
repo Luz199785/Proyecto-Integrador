@@ -1,0 +1,116 @@
+.body{
+    font-family: ubuntu,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(37, 226, 37);
+    line-height: 1.5
+}
+
+.landing-hero{
+    height: 250px;
+    padding: 60px 0 60px 0;
+}
+
+.bg-dark{
+    background-color: rgb(36, 147, 175);
+}
+
+.title{
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.text{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.btn--primary{
+    background-color: #49b970;
+    color: white;
+    border: none;
+}
+
+.btn{
+    font-family: sans-serif;
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+    width: 170px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color .15s ease-in-out,background-color 
+    .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    vertical-align: middle;
+    DISPLAY: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.portafolio-demos{
+    padding: 60px 0 70px 0;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio-item{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.portfolio-item .portafolio-img img{
+    width: 100%;
+}
+
+.portfolio-item .portafolio-img:hover{
+    transform: translateY(-10px);
+    transition: all .35s;
+}
+
+.portafolio-title{
+    color: #2970a0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.portafolio-title:hover{
+    color: #49b970;
+    transition: all .35s;
+}
+
+.footer{
+    color: #fff;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.footer .container .row .text--center .footer--copyright{
+    color: #999;
+    font-family: sans-serif;
+    font-weight: 400px;
+    line-height: 1;
+    text-transform: capitalize;
+}
